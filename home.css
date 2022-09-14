@@ -1,0 +1,284 @@
+body {
+    margin: auto;
+    background-color: black;
+    /* background-color:rgb(49 ,49, 222 ,1); */
+}
+
+
+header {
+    position: fixed;
+    display: flex;
+    flex: auto ;
+    width: 100%;
+    height: 55px;
+    background-color:#c1c199;
+    z-index: 10;
+    color:navy;
+    flex-direction: row;
+  }
+
+    
+
+
+
+
+
+#brand {
+    float: left;
+}
+#brand:hover{
+    height: 56px;
+}
+
+#brand>img {
+    border-radius: 50%;
+    height: 48px;
+    width: 47px;
+    margin-left: 8px;
+    margin-top: 13%;
+    background-color: #959bce;
+}
+#brand>img:hover{
+    height: 58px;
+}
+
+#heading {
+    margin-left: 1%;
+    float: left;
+    color: red;
+    /* font-size: 14px; */
+}
+
+
+
+#navbar {
+    font-size: 120%;
+    margin-top: -5%;
+    margin-bottom: 5%;
+    margin-right: 3%;
+    text-align: center;
+    font-family: cursive;
+}
+
+#btn {
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+
+.navAnch {
+    width: 3%;
+    text-decoration: none;
+    color: #0b0be5;
+    margin: 1% 2% 0% 2%;
+    float: left;
+    text-align: center;
+}
+#devImg{
+    width: 1600px;
+    height: 400px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+/* <div class="container">
+    <div class="row">
+        <div class="col-12 mb-5">
+            <img src="../../assets/business.jpg" class="img-fluid" alt="business">
+        </div>
+    </div> */
+    #backImg{
+        width: 100%;
+    height: 80px;
+    /* margin-top: -5%; */
+    }
+
+
+    
+/* Search CSS */
+#search{
+    /* border: 2px solid red;  */
+    /* background-image: url("images_MMM/kar/Keshava-Temple-Somanathapura.jpg"); */
+    /* background-size: 100% 400px; */
+    width: 100%;
+    height: 530px;
+    background-repeat: no-repeat;
+    /* border: 2px solid violet; */
+}
+.searchHead{
+    text-align:center; 
+    margin-top:0%;
+    color:black;
+    font-size: 38px;
+}
+/* #search >img{
+    background-size: 100% 400px;
+    width: 100%;
+    height: 400px; 
+
+} */
+/*Quick Search CSS  */
+.quickHead{
+    text-align:center ;
+    
+    color:#0b0be5;
+}
+.quickHead:hover{
+    font-size: 45px;
+}
+#quickSearch{
+    /* background-color:rgb(49 ,49, 222 ,1); */
+    background-color:white
+    
+}
+
+
+
+.card {
+    width: 20%;
+    height: 480px;
+    margin: 2%;
+    float: left;
+    background-color: #f5d7c2;
+    /* If text is overflowen, then the contents/text are hidden/gone */
+     /* overflow: hidden;  */
+     /* background-attachment: fixed; */
+      overflow: scroll;  
+      border: 2px groove red;    
+      box-shadow: 10px 10px 10px black;           
+      /* animation: dance 14s infinite; */
+    }
+    
+    /* @keyframes dance{
+        0%{transform: rotate(-5deg);}
+        25%{transform: rotate(0deg);}
+        50%{transform: rotate(5deg);}
+        60%{transform:scale(1.1)}
+        75%{transform: rotate(0deg);}
+        100%{transform: rotate(-5deg);}
+    } */
+    
+
+    .card:hover{
+        transform: scale(1.1);
+        font-size: 15px;
+    }
+    
+    /* .blue{
+        background-color:#959bce ;
+    } */
+    /* .brown{
+        background-color:#dcc0a3 ;
+    } */
+    .scroll {
+         background-color: white; 
+        /* width: 600px; */
+        /* height: 150px; */
+        /* overflow: scroll; */
+          /* overflow-y : auto; */
+        /* overflow: scroll */
+        /* text-align: center; */ 
+        /* padding: 20px; */
+      }
+      .brown{
+        background-color:#dcc0a3 ;
+    }
+    /* .card p{
+        overflow: scroll;
+    } */
+    /* .text{
+        overflow: scroll;
+    } */
+  
+.card h2 {
+    text-align: center;
+    
+    background-color: #f5d7c2
+    /* overflow: scroll; */
+    
+    }
+
+.cardImg {
+    height: 200px;
+    width: 100%;
+    /* background-attachment: fixed;  */
+}
+
+/* .card > img{
+    height: 200px;
+    width: 100%;
+} */
+#quickSearch {
+    /* margin-left: 4%; */
+    margin-left: 1%;
+    /* height: 412px; */
+    margin-top: -13%;
+    margin-right: 2%;
+}
+   
+
+#karnataka{
+    /* border: 2px solid green; */
+     height: 70%;
+    /* font-size: 35px; */
+}
+
+#karnataka:hover{
+    font-size: 20px;
+}
+
+#andhraPradesh{
+    /* border: 2px solid black; */
+    height: 60%;
+}
+
+
+#andhraPradesh:hover{
+    font-size: 20px;
+}
+
+
+
+/* Footer CSS */
+footer{
+    text-align: center;
+    margin-top: 5%;
+    background-color:#c1c199;
+    color: black;
+    height: 90px;
+    border: 2px solid black;
+    /* text-decoration: none;  */
+
+}
+footer >p{
+    margin-top:25px;
+}
+
+
+#footDiv{
+    float: right;
+    /* margin-bottom: 12%; */
+    margin-right: 2%;
+    margin-top: -2%;
+    /* text-decoration: none;  */
+
+}
+.footLogo{
+    height: 41px;
+    width: 22%;
+    /* margin:auto */
+    /* margin-bottom:8%; */
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+

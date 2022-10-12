@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <script src="home.js"></script>
 </head>
 
 <body>
@@ -21,7 +23,7 @@
         </div>
         <div id="navbar">
             <a href="#home" class="navAnch">home</a>
-            <a href="#about" class="navAnch">about</a>
+            <!-- <a href="#about" class="navAnch">about</a> -->
             <a href="book" class="navAnch">book</a>
             <a href="packages" class="navAnch">packages</a>
             <a href="services" class="navAnch">services</a>
@@ -29,10 +31,15 @@
             <a href="review" class="navAnch">review</a>
             <a href="#contact" class="navAnch">contact</a>
         </div>
+        
         <div id="btn">
-            <button>Search</button>
-            <input type="text" name="text" placeholder="Enter your Search Here">
+            <p><span class="glyphicon glyphicon-search"></span>
+                <input type="text" name="text" placeholder="Enter your Search Here">
+            
+            </p>
+            <!-- <button>Search</button> -->
         </div>
+        
     </header>
 
         
@@ -66,7 +73,39 @@
                 Karanataka & Andhra Pradesh</b></h1>
 
         </div>
-               
+        <div id="main">
+            <!-- <center>
+                <h1>Coupon Page</h1>
+            </center>
+             -->
+         </div>
+        <div id = "coupon">
+            <button onclick="closeCoupon()">&times;</button> 
+             <div>
+                <img src="https://i.ibb.co/yXLVxhV/bg-coup3.jpg" alt="bg-coup3"  class="imgCoup"/>
+                 <div class="offers">
+                    <span>LIMITED TIME OFFERS</span> 
+                        <span  style="margin-top: 11px;">FESTIVE SEASONS OFF</span>
+                        <span>AVAIL IT NOW</span> 
+                </div>
+                <div class="discount">
+                    <span>Use Code: welcome1</span>
+                    <span>To Get UPTO:30% On Your First Booking</span> 
+                </div>
+                <!-- <div class="vertical-text">LIMITED TIME OFFERS</div> -->
+                   
+
+            </div>
+        </div>
+        <div>
+
+        </div>
+        
+        <script>
+            window.onload = loadCoupon();
+
+        </script>
+        
 
 
    
@@ -100,7 +139,7 @@
             </div>
             <div class="card">
                 <div>
-                    <img src="https://i.ibb.co/X20zD6n/Gavi-Gangadhareshwara-Temple-blr.jpg" alt="bang" class="cardImg" />
+                    <img src="https://i.ibb.co/smxFCcT/Gavi-Gangadhareshwara-Temple-blr.jpg" alt="Gavi-Gangadhareshwara-Temple-blr" class="cardImg" />
                 </div>
                 <h2>GaviGangadhareshwara Temple</h2>
                 <div class="scroll blue">
@@ -237,10 +276,10 @@
         </div>
     </div>
 
-</body>
+
 
 <footer>
-    <p><b>2022&copy;Yasho's MMT & Co.</b></p>
+    <p>2022&copy;Yasho's MMT & Co.</p>
     <div id="footDiv">
         <a href="https://instagram.com">
             <img src="https://i.ibb.co/L8v3shh/instanew.png" alt="instanew" class="footLogo" />
@@ -253,5 +292,6 @@
         </a>
     </div>
 </footer>
+</body>
  
 </html>
